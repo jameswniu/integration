@@ -255,3 +255,4 @@ left join
 order by
 	cust_id	
 	, date_of_service desc;
+
