@@ -58,9 +58,9 @@ con = psycopg2.connect(**params)
 os.chdir(r'L:\claim_drop_request')
 
 
-########################################################################################################################
+#----
 # extract from input case manager spreadsheet after VERIFY
-########################################################################################################################
+#----
 file = 'raw_data__manual_input_from_employee_to_insert_database_and_bill_out.xlsx'  # 1 SPECIFY
 
 if '.xlsx' in file:
@@ -140,9 +140,9 @@ with open(new_file, 'r') as fr:
     custs = ', '.join(cust_d)
 
 
-########################################################################################################################
+#----
 # dump JSON
-########################################################################################################################
+#----
 sql = f"""select 'client' tbl, claim_content final_content from tpl_client_raw_bills where cust_id in ({custs}) and pat_acct in ({accts})
 union all
 select 'raw' tbl, new_content final_content from public.tpl_raw_bills a where cust_id in ({custs}) and pat_acct in ({accts})
@@ -153,9 +153,9 @@ with con:
     cur.execute(sql)
 
 
-########################################################################################################################
+#----
 # write new bills
-########################################################################################################################
+#----
 Ymd = datetime.now(tz=timezone('America/New_York')).strftime('%Y%m%d')
 md = Ymd[4:]
 
@@ -322,9 +322,9 @@ if q > 0:
     fw1.close()
 
 
-########################################################################################################################
+#----
 # transfer file to linux
-########################################################################################################################
+#----
 try:
     ssh = SSHClient()
     ssh.set_missing_host_key_policy(paramiko.AutoAddPolicy())
