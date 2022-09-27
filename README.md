@@ -15,7 +15,7 @@ Data transformation in Linux old employee 2 to new JSON format.py
 
 Data transformation old employee 2 to new JSON format.sql
 
-Display number of records processed and current datetime in specified timezone.sh
+Display number of records processed and current DateTime in specified timezone.sh
 
 Combine database and CSV data for management report.py
 
