@@ -21,5 +21,7 @@ Combine database and CSV data for management report.py
 
 Merge different customers for one report.sql
 
+Run database extraction while informing supervisor.sh
+
 Show number of records processed while displaying current DateTime in specified timezone.sh
 
