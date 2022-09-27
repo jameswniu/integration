@@ -15,11 +15,11 @@ Data transformation in Linux old employee 2 to new JSON format.py
 
 Data transformation old employee 2 to new JSON format.sql
 
-Display number of records processed and current DateTime in specified timezone.sh
-
 Transform internal manual Excel input into production JSON and store on Linux server.py
 
 Combine database and CSV data for management report.py
 
 Merge different customers for one report.sql
+
+Show number of records processed while displaying current DateTime in specified timezone.sh
 
