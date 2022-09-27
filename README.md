@@ -17,7 +17,7 @@ Data transformation old employee 2 to new JSON format.sql
 
 Display number of records processed and current DateTime in specified timezone.sh
 
-Transform manual Excel input into production JSON and store on Linux server.py
+Transform manual Excel input from case managers into production JSON and store on Linux server.py
 
 Combine database and CSV data for management report.py
 
