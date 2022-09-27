@@ -12,3 +12,4 @@ then
 	#echo $ind
 	wc -l /tmp/update_$ind* 
 fi
+
