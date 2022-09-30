@@ -15,6 +15,8 @@ Data transformation in Linux old employee 2 to new JSON format.py
 
 Data transformation old employee 2 to new JSON format.sql
 
+Merge CSV data sets by creating and joining temporary database tables.sql
+
 Transform internal manual Excel input into production JSON and store on Linux server.py
 
 Combine database and CSV data for management report.py
