@@ -15,13 +15,13 @@ Show number of records processed while displaying current DateTime in specified 
 
 Transform internal manual Excel input into production JSON and store on Linux server.py
 
-Transform old JSON V1 from past employee to new production format with Python for database.py
+Transform old JSON v1 to new format with Python for database.py
 
-Transform old JSON V1 to new format with Python on Linux.py
+Transform old JSON v1 to new format with Python on Linux.py
 
-Transform old JSON V2 to new format with Python on Linux.py
+Transform old JSON v2 to new format with Python on Linux.py
 
-Transform old JSON V2 to new format with SQL for database.SQL
+Transform old JSON v2 to new format with SQL for database.SQL
 
 Use data warehouse to fill in missing ICD code descriptions and update records stored.py
 
